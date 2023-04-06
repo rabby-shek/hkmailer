@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
-// Assets
-import CloseIcon from "../../assets/svg/CloseIcon";
-import LogoIcon from "../../assets/svg/Logo";
+
+
 import mailerLogo from "../../assets/img/mailer_images/ico.png"
 import { AiOutlineClose } from 'react-icons/ai';
 
