@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
-
-
 import mailerLogo from "../../assets/img/mailer_images/ico.png"
 import { AiOutlineClose } from 'react-icons/ai';
 
