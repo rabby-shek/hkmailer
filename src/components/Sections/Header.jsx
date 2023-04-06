@@ -4,6 +4,7 @@ import styled from "styled-components";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import Dots from "../../assets/svg/Dots";
+import HeaderImg from "../../assets/img/mailer_images/abstract-message-sent.gif";
 
 export default function Header() {
   return (
@@ -21,18 +22,7 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src="https://media.istockphoto.com/id/1157006349/photo/white-chat-bubble-with-email-symbol-on-blue-background.jpg?s=612x612&w=0&k=20&c=RLzRDPr-OE7qFaRm79nLXtjq4Utjii7yLk6K-y6owvw=" alt="office" style={{zIndex: 9}} />
-          {/* <QuoteWrapper className="flexCenter darkBg radius8">
-            <QuotesWrapper>
-              <QuotesIcon />
-            </QuotesWrapper>
-            <div>
-              <p className="font15 whiteColor">
-                <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
-              </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
-            </div>
-          </QuoteWrapper> */}
+          <Img className="radius8" src={ HeaderImg } alt="office" style={{zIndex: 9, paddingLeft: 10 }} />
           <DotsWrapper>
             <Dots />
           </DotsWrapper>
