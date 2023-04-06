@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
 // Assets
-import LogoIcon from "../../assets/svg/Logo";
+
 import BurgerIcon from "../../assets/svg/BurgerIcon";
 import mailerLogo from "../../assets/img/mailer_images/ico.png"
 
