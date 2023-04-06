@@ -4,7 +4,7 @@ import styled from "styled-components";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import Dots from "../../assets/svg/Dots";
-import HeaderImg from "../../assets/img/mailer_images/abstract-message-sent.gif";
+import HeaderImg from "../../assets/img/abstract-message-sent.gif";
 
 export default function Header() {
   return (
@@ -22,10 +22,10 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={ HeaderImg } alt="office" style={{zIndex: 9, paddingLeft: 10 }} />
-          <DotsWrapper>
-            <Dots />
-          </DotsWrapper>
+          <Img className="radius8" src={ HeaderImg } alt="office" style={{zIndex: 9, width:"100%" }} />
+        {/* <DotsWrapper>
+          <Dots />
+        </DotsWrapper> */}
         </ImageWrapper>
         <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>

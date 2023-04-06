@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 // Assets
 
-import flyingplaneImg from "../../assets/img/mailer_images/sammy-line-flying-message-plane.png"
-import blossommsgImg from "../../assets/img/mailer_images/bloom-messages.png"
-import ContactImg2 from "../../assets/img/mailer_images/handy-line-mailbox-sends-mail.png"
+import flyingplaneImg from "../../assets/img/sammy-line-flying-message-plane.png"
+import blossommsgImg from "../../assets/img/bloom-messages.png"
+import ContactImg2 from "../../assets/img/handy-line-mailbox-sends-mail.png"
 export default function Contact() {
   return (
     <Wrapper id="contact">

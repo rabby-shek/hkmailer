@@ -7,7 +7,7 @@ import Backdrop from "../Elements/Backdrop";
 // Assets
 
 import BurgerIcon from "../../assets/svg/BurgerIcon";
-import mailerLogo from "../../assets/img/mailer_images/ico.png"
+import mailerLogo from "../../assets/img/ico.png"
 
 export default function TopNavbar() {
   const [y, setY] = useState(window.scrollY);

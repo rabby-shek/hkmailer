@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
 // Assets
-import hkmailerLogo from "../../assets/img/mailer_images/ico.png"
+import hkmailerLogo from "../../assets/img/ico.png"
 
 export default function Contact() {
 
